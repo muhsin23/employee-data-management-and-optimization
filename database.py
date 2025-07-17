@@ -8,7 +8,7 @@ class Database:
         self.conn = psycopg2.connect(
             dbname="employee",
             user="postgres",
-            password="@Muhsin6996",
+            password="",
             host="localhost"
         )
         self.cursor = self.conn.cursor()
